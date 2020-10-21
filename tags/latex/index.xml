@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LaTeX on ZHENG Zi&#39;ou</title>
+    <link>https://orianna-zzo.github.io/tags/latex/</link>
+    <description>Recent content in LaTeX on ZHENG Zi&#39;ou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Mon, 19 Mar 2018 22:33:45 +0800</lastBuildDate><atom:link href="https://orianna-zzo.github.io/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog养成记(6) Hugo中的LaTeX渲染</title>
+      <link>https://orianna-zzo.github.io/sci-tech/2018-03/blog%E5%85%BB%E6%88%90%E8%AE%B06-hugo%E4%B8%AD%E7%9A%84latex%E6%B8%B2%E6%9F%93/</link>
+      <pubDate>Mon, 19 Mar 2018 22:33:45 +0800</pubDate>
+      
+      <guid>https://orianna-zzo.github.io/sci-tech/2018-03/blog%E5%85%BB%E6%88%90%E8%AE%B06-hugo%E4%B8%AD%E7%9A%84latex%E6%B8%B2%E6%9F%93/</guid>
+      <description>Hugo本身并不支持(\LaTeX)，但可以通过javascript进行渲染。Hugo官网提供了多种方法，由于这篇博客我决定选择(\KaTeX)，而不是MathJax。</description>
+    </item>
+    
+  </channel>
+</rss>
