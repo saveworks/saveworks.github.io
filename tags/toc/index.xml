@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>toc on EightLingPg</title>
-    <link>https://saveworks.github.io/eightlinepg-blog/tags/toc/</link>
+    <link>https://saveworks.github.io/saveworks/tags/toc/</link>
     <description>Recent content in toc on EightLingPg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 25 Aug 2018 22:59:59 +0800</lastBuildDate><atom:link href="https://saveworks.github.io/eightlinepg-blog/tags/toc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Aug 2018 22:59:59 +0800</lastBuildDate><atom:link href="https://saveworks.github.io/saveworks/tags/toc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog养成记(16) 自建Hugo的TOC模板</title>
-      <link>https://saveworks.github.io/eightlinepg-blog/sci-tech/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B016-%E8%87%AA%E5%BB%BAhugo%E7%9A%84toc%E6%A8%A1%E6%9D%BF/</link>
+      <link>https://saveworks.github.io/saveworks/sci-tech/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B016-%E8%87%AA%E5%BB%BAhugo%E7%9A%84toc%E6%A8%A1%E6%9D%BF/</link>
       <pubDate>Sat, 25 Aug 2018 22:59:59 +0800</pubDate>
       
-      <guid>https://saveworks.github.io/eightlinepg-blog/sci-tech/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B016-%E8%87%AA%E5%BB%BAhugo%E7%9A%84toc%E6%A8%A1%E6%9D%BF/</guid>
+      <guid>https://saveworks.github.io/saveworks/sci-tech/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B016-%E8%87%AA%E5%BB%BAhugo%E7%9A%84toc%E6%A8%A1%E6%9D%BF/</guid>
       <description>Table Of Content是一个十分常用的功能，这个系列的第13篇Blog养成记13 增加一个TOC侧边栏就是为了这个做准备，只不过是在静态页面上尝试想要的样式。本文用到的样式都基于第13篇中增加的css样式。</description>
     </item>
     
