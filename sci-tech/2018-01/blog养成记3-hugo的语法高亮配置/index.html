@@ -12,7 +12,7 @@
   <meta property="og:title" content="Blog养成记(3) Hugo的语法高亮配置" />
 <meta property="og:description" content="前言 Hugo官网在这里给出了详细的语法高亮配置说明。 一般有以下几种常见方法： 使用Hugo默认Chroma (弃，一些代码无法高亮) 使用Pygments (弃，一些代码无法高亮) 使用Highlight Shortcode (弃，高亮颜色渲染问题) 使用Highlight.js ✔️ 使用Pygments进行高亮 Hugo从0.28版本开始默认使用Chroma来作语法高亮。Chroma使用go编写的，渲染速度很快。 如果需要使用Pyg" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://saveworks.github.io/saveworks/sci-tech/2018-01/blog%E5%85%BB%E6%88%90%E8%AE%B03-hugo%E7%9A%84%E8%AF%AD%E6%B3%95%E9%AB%98%E4%BA%AE%E9%85%8D%E7%BD%AE/" />
+<meta property="og:url" content="https://saveworks.github.io/sci-tech/2018-01/blog%E5%85%BB%E6%88%90%E8%AE%B03-hugo%E7%9A%84%E8%AF%AD%E6%B3%95%E9%AB%98%E4%BA%AE%E9%85%8D%E7%BD%AE/" />
 <meta property="article:published_time" content="2018-01-09T17:52:25+08:00" />
 <meta property="article:modified_time" content="2018-01-09T17:52:25+08:00" />
 
@@ -24,29 +24,29 @@
   
   </title>
 
-  <link rel="canonical" href="https://saveworks.github.io/saveworks/sci-tech/2018-01/blog%E5%85%BB%E6%88%90%E8%AE%B03-hugo%E7%9A%84%E8%AF%AD%E6%B3%95%E9%AB%98%E4%BA%AE%E9%85%8D%E7%BD%AE/">
+  <link rel="canonical" href="https://saveworks.github.io/sci-tech/2018-01/blog%E5%85%BB%E6%88%90%E8%AE%B03-hugo%E7%9A%84%E8%AF%AD%E6%B3%95%E9%AB%98%E4%BA%AE%E9%85%8D%E7%BD%AE/">
 
   
   
 
   
-  <link href="https://saveworks.github.io/saveworks/css/vendors-extensions/fontawesome/all.min.css" rel="stylesheet">
+  <link href="https://saveworks.github.io/css/vendors-extensions/fontawesome/all.min.css" rel="stylesheet">
 
   
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:300,400,500,600">
-  <link href="https://saveworks.github.io/saveworks/css/font.css" rel="stylesheet"> 
+  <link href="https://saveworks.github.io/css/font.css" rel="stylesheet"> 
     
   
-  <link href="https://saveworks.github.io/saveworks/css/vendors/bootstrap4/bootstrap.min.css" rel="stylesheet">
-  <link href="https://saveworks.github.io/saveworks/css/vendors-extensions/mdb/mdb.min.css" rel="stylesheet"> 
-  <link href="https://saveworks.github.io/saveworks/css/vendors/mdb/style.min.css" rel="stylesheet"> 
-  <link href="https://saveworks.github.io/saveworks/css/main.css" rel="stylesheet">
+  <link href="https://saveworks.github.io/css/vendors/bootstrap4/bootstrap.min.css" rel="stylesheet">
+  <link href="https://saveworks.github.io/css/vendors-extensions/mdb/mdb.min.css" rel="stylesheet"> 
+  <link href="https://saveworks.github.io/css/vendors/mdb/style.min.css" rel="stylesheet"> 
+  <link href="https://saveworks.github.io/css/main.css" rel="stylesheet">
 
 
   
   <link rel="shortcut icon"
   
-      href="https://saveworks.github.io/saveworks/img/zheng.png"
+      href="https://saveworks.github.io/img/zheng.png"
   
   >
 
@@ -69,7 +69,7 @@
 
   
     
-    <link rel="stylesheet" href="https://saveworks.github.io/saveworks/css/vendors/highlight/github-gist.css">
+    <link rel="stylesheet" href="https://saveworks.github.io/css/vendors/highlight/github-gist.css">
   
 
 </head>
@@ -87,9 +87,9 @@
     <div class="container">
 
       
-      <a class="navbar-brand" href="https://saveworks.github.io/saveworks/">
+      <a class="navbar-brand" href="https://saveworks.github.io/">
           
-        <img class="avatar" src="https://saveworks.github.io/saveworks/img/zheng.png" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
+        <img class="avatar" src="https://saveworks.github.io/img/zheng.png" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
         
         <strong> EightLinePg</strong>
       </a>
@@ -106,31 +106,31 @@
         
         <ul class="navbar-nav mr-auto ">
           <li class="nav-item ">
-            <a class="nav-link" href="https://saveworks.github.io/saveworks/">Home</a>
+            <a class="nav-link" href="https://saveworks.github.io/">Home</a>
           </li>
              
             <li class="nav-item ">
-              <a class="nav-link" href="https://saveworks.github.io/saveworks/sci-tech/" >Sci-Tech  </a>
+              <a class="nav-link" href="https://saveworks.github.io/sci-tech/" >Sci-Tech  </a>
             </li>
           
              
             <li class="nav-item ">
-              <a class="nav-link" href="https://saveworks.github.io/saveworks/blog/" >Blog  </a>
+              <a class="nav-link" href="https://saveworks.github.io/blog/" >Blog  </a>
             </li>
           
              
             <li class="nav-item ">
-              <a class="nav-link" href="https://saveworks.github.io/saveworks/Categories/" >Categories  </a>
+              <a class="nav-link" href="https://saveworks.github.io/Categories/" >Categories  </a>
             </li>
           
              
             <li class="nav-item ">
-              <a class="nav-link" href="https://saveworks.github.io/saveworks/Tags/" >Tags  </a>
+              <a class="nav-link" href="https://saveworks.github.io/Tags/" >Tags  </a>
             </li>
           
              
             <li class="nav-item ">
-              <a class="nav-link" href="https://saveworks.github.io/saveworks/about/" >About  </a>
+              <a class="nav-link" href="https://saveworks.github.io/about/" >About  </a>
             </li>
           
           
@@ -163,7 +163,7 @@
 
         
         <div class="carousel-item active">
-          <div class="view" style="background-image: url('https://saveworks.github.io/saveworks/img/header-slides/fan.jpg'); background-repeat: no-repeat; background-size: cover;">
+          <div class="view" style="background-image: url('https://saveworks.github.io/img/header-slides/fan.jpg'); background-repeat: no-repeat; background-size: cover;">
 
             
             <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
@@ -184,7 +184,7 @@
 
         
         <div class="carousel-item">
-          <div class="view" style="background-image: url('https://saveworks.github.io/saveworks/img/header-slides//in_the_mirror.jpg'); background-repeat: no-repeat; background-size: cover;">
+          <div class="view" style="background-image: url('https://saveworks.github.io/img/header-slides//in_the_mirror.jpg'); background-repeat: no-repeat; background-size: cover;">
 
             
             <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
@@ -203,7 +203,7 @@
 
         
         <div class="carousel-item">
-          <div class="view" style="background-image: url('https://saveworks.github.io/saveworks/img/header-slides//leaf.jpg'); background-repeat: no-repeat; background-size: cover;">
+          <div class="view" style="background-image: url('https://saveworks.github.io/img/header-slides//leaf.jpg'); background-repeat: no-repeat; background-size: cover;">
 
             
             <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
@@ -222,7 +222,7 @@
 
         
         <div class="carousel-item">
-          <div class="view" style="background-image: url('https://saveworks.github.io/saveworks/img/header-slides//raw_1515691746.jpg'); background-repeat: no-repeat; background-size: cover;">
+          <div class="view" style="background-image: url('https://saveworks.github.io/img/header-slides//raw_1515691746.jpg'); background-repeat: no-repeat; background-size: cover;">
 
             
             <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
@@ -241,7 +241,7 @@
 
         
         <div class="carousel-item">
-          <div class="view" style="background-image: url('https://saveworks.github.io/saveworks/img/header-slides//raw_1515847341.jpg'); background-repeat: no-repeat; background-size: cover;">
+          <div class="view" style="background-image: url('https://saveworks.github.io/img/header-slides//raw_1515847341.jpg'); background-repeat: no-repeat; background-size: cover;">
 
             
             <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
@@ -266,15 +266,15 @@
     <div class="row mx-0 headfont mt-3 pt-4">
       
       <div class="col-12 col-sm-5 align-middle">
-        <a href="https://saveworks.github.io/saveworks/">
+        <a href="https://saveworks.github.io/">
           
-            <img class="pull-right avatar avatar-md" src="https://saveworks.github.io/saveworks/img/profile.jpg" alt="" >
+            <img class="pull-right avatar avatar-md" src="https://saveworks.github.io/img/profile.jpg" alt="" >
           
         </a>
       </div>
       
       <div class="col-12 col-sm-7 text-left pl-2">
-        <a href="https://saveworks.github.io/saveworks/">
+        <a href="https://saveworks.github.io/">
           <h1 class="mb-2 h1" style="font-weight: 300;" >
             <strong>EightLingPg</strong>
           </h1>
@@ -345,12 +345,12 @@
   <ul class="post-meta li-x">
     
       
-        <li><a href="https://saveworks.github.io/saveworks/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> 杂技浅尝 </a></li>
+        <li><a href="https://saveworks.github.io/categories/%E6%9D%82%E6%8A%80%E6%B5%85%E5%B0%9D"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> 杂技浅尝 </a></li>
       
     
     
       
-        <li><a href="https://saveworks.github.io/saveworks/series/blog%E5%85%BB%E6%88%90%E8%AE%B0"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>Blog养成记</a></li>
+        <li><a href="https://saveworks.github.io/series/blog%E5%85%BB%E6%88%90%E8%AE%B0"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>Blog养成记</a></li>
       
     
   </ul>
@@ -450,7 +450,7 @@
     <span class="k">color</span><span class="p">:</span> <span class="nb">rgb</span><span class="p">(</span><span class="mi">194</span><span class="p">,</span> <span class="mi">192</span><span class="p">,</span> <span class="mi">192</span><span class="p">)</span> <span class="cp">!important</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div><h4 id="2018821-自建shortcode替代hightlight-shortcode">2018.8.21 自建shortcode替代Hightlight Shortcode</h4>
-<p>由于highlight shortcode的渲染样式实在是太诡异，难以调整，因此自己建立专门用于高亮的shortcode，这些shortcode也可以在代码块中使用，可以不仅只渲染一行，更为灵活方便。于是就可以弃用highlight shortcode了。具体内容详见<a href="https://saveworks.github.io/saveworks/sci-tech/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B015-%E5%88%9B%E5%BB%BAshortcode%E6%A8%A1%E6%9D%BF%E4%BE%BF%E6%8D%B7%E9%AB%98%E4%BA%AE%E5%86%85%E5%AE%B9/">Blog养成记15 创建shortcode模板便捷高亮内容</a>。</p>
+<p>由于highlight shortcode的渲染样式实在是太诡异，难以调整，因此自己建立专门用于高亮的shortcode，这些shortcode也可以在代码块中使用，可以不仅只渲染一行，更为灵活方便。于是就可以弃用highlight shortcode了。具体内容详见<a href="https://saveworks.github.io/sci-tech/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B015-%E5%88%9B%E5%BB%BAshortcode%E6%A8%A1%E6%9D%BF%E4%BE%BF%E6%8D%B7%E9%AB%98%E4%BA%AE%E5%86%85%E5%AE%B9/">Blog养成记15 创建shortcode模板便捷高亮内容</a>。</p>
 <h2 id="使用highlightjs进行高亮">使用highlight.js进行高亮</h2>
 <p>highlight.js这个插件使用起来特别方便，还可以定制化选择需要高亮的语言，只需要在<a href="https://highlightjs.org/download/">highlight.js官网</a>选择所需要的语言，下载即可。然后解压文件中，<!-- raw HTML omitted -->highlight.pack.js<!-- raw HTML omitted -->决定那些语言的代码会根据语法进行高亮，在style文件夹中选择喜欢的css样式文件，css文件决定代码高亮的颜色，最后我选择了<!-- raw HTML omitted -->github-gist.css<!-- raw HTML omitted --></p>
 <p>然后需要在&lt;head&gt;中增加：</p>
@@ -504,16 +504,16 @@
               <div class="mb-5">
                 
 <div class="li-x div-x post-meta">
-  <li class="pr-0"><a href="https://saveworks.github.io/saveworks/tags/"><i class="fas fa-tags"></i></a></li>
+  <li class="pr-0"><a href="https://saveworks.github.io/tags/"><i class="fas fa-tags"></i></a></li>
   <div class="tags-sm">
     
-      <li><a href="https://saveworks.github.io/saveworks/tags/hugo" role="button">hugo </a></li>
+      <li><a href="https://saveworks.github.io/tags/hugo" role="button">hugo </a></li>
       
     
-      <li><a href="https://saveworks.github.io/saveworks/tags/%E8%AF%AD%E6%B3%95%E9%AB%98%E4%BA%AE" role="button">语法高亮 </a></li>
+      <li><a href="https://saveworks.github.io/tags/%E8%AF%AD%E6%B3%95%E9%AB%98%E4%BA%AE" role="button">语法高亮 </a></li>
       
     
-      <li><a href="https://saveworks.github.io/saveworks/tags/blog" role="button">blog </a></li>
+      <li><a href="https://saveworks.github.io/tags/blog" role="button">blog </a></li>
       
     
   </div>
@@ -529,7 +529,7 @@
           <div class="row pt-3">
             <div class="col-md-6">
               
-                <a href=https://saveworks.github.io/saveworks/sci-tech/2018-01/blog%E5%85%BB%E6%88%90%E8%AE%B02-hugo-docker%E5%9C%A8github%E4%B8%8A%E5%BB%BA%E7%AB%8Bblog/ class="post-meta">Previous
+                <a href=https://saveworks.github.io/sci-tech/2018-01/blog%E5%85%BB%E6%88%90%E8%AE%B02-hugo-docker%E5%9C%A8github%E4%B8%8A%E5%BB%BA%E7%AB%8Bblog/ class="post-meta">Previous
                   <div class="pt-2 pb-5 d-flex">
                     <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
                     <span>Blog养成记(2) Hugo&#43;Docker在Github上建立Blog</span>
@@ -540,7 +540,7 @@
             
             <div class="col-md-6 text-right" >
               
-                <a href=https://saveworks.github.io/saveworks/sci-tech/2018-01/blog%E5%85%BB%E6%88%90%E8%AE%B04-hugo%E4%B8%AD%E5%A2%9E%E5%8A%A0tags%E7%AD%89%E5%88%86%E7%B1%BB/ class="post-meta">Next
+                <a href=https://saveworks.github.io/sci-tech/2018-01/blog%E5%85%BB%E6%88%90%E8%AE%B04-hugo%E4%B8%AD%E5%A2%9E%E5%8A%A0tags%E7%AD%89%E5%88%86%E7%B1%BB/ class="post-meta">Next
                   <div class="pt-2 pb-5 flex-reverse">
                     <i class="fas fa-angle-right text-grey font-weight-bold ml-2 active-color"></i>
                     <span>Blog养成记(4) Hugo中增加tags等分类</span>
@@ -924,23 +924,23 @@
 
 
 
-<script type="text/javascript" src="https://saveworks.github.io/saveworks/js/vendors/jquery/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="https://saveworks.github.io/saveworks/js/vendors/jquery/jquery.smooth-scroll.min.js"></script>
+<script type="text/javascript" src="https://saveworks.github.io/js/vendors/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="https://saveworks.github.io/js/vendors/jquery/jquery.smooth-scroll.min.js"></script>
 
 
 
-<script type="text/javascript" src="https://saveworks.github.io/saveworks/js/vendors/popper.min.js"></script>
-<script type="text/javascript" src="https://saveworks.github.io/saveworks/js/vendors/holder.min.js"></script>
-<script type="text/javascript" src="https://saveworks.github.io/saveworks/js/vendors-extensions/bootstrap4/bootstrap.js" ></script>
+<script type="text/javascript" src="https://saveworks.github.io/js/vendors/popper.min.js"></script>
+<script type="text/javascript" src="https://saveworks.github.io/js/vendors/holder.min.js"></script>
+<script type="text/javascript" src="https://saveworks.github.io/js/vendors-extensions/bootstrap4/bootstrap.js" ></script>
 
-<script type="text/javascript" src="https://saveworks.github.io/saveworks/js/vendors/mdb/mdb.min.js"></script>
+<script type="text/javascript" src="https://saveworks.github.io/js/vendors/mdb/mdb.min.js"></script>
 
-<script type="text/javascript" src="https://saveworks.github.io/saveworks/js/main.js"></script>
+<script type="text/javascript" src="https://saveworks.github.io/js/main.js"></script>
 
 
 
   
-  <script src="https://saveworks.github.io/saveworks/js/vendors/highlight.pack.js"> </script>
+  <script src="https://saveworks.github.io/js/vendors/highlight.pack.js"> </script>
   <script>hljs.initHighlightingOnLoad();</script>
 
 
