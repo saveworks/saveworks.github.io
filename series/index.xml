@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on ZHENG Zi&#39;ou</title>
+    <title>Series on EightLingPg</title>
     <link>https://saveworks.github.io/eightlinepg-blog/series/</link>
-    <description>Recent content in Series on ZHENG Zi&#39;ou</description>
+    <description>Recent content in Series on EightLingPg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Mon, 11 Mar 2019 20:35:12 +0800</lastBuildDate><atom:link href="https://saveworks.github.io/eightlinepg-blog/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2020 07:35:57 +0800</lastBuildDate><atom:link href="https://saveworks.github.io/eightlinepg-blog/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>github</title>
+      <link>https://saveworks.github.io/eightlinepg-blog/series/github/</link>
+      <pubDate>Thu, 22 Oct 2020 07:35:57 +0800</pubDate>
+      
+      <guid>https://saveworks.github.io/eightlinepg-blog/series/github/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>观后repo</title>
       <link>https://saveworks.github.io/eightlinepg-blog/series/%E8%A7%82%E5%90%8Erepo/</link>

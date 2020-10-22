@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on ZHENG Zi&#39;ou</title>
+    <title>Tags on EightLingPg</title>
     <link>https://saveworks.github.io/eightlinepg-blog/tags/</link>
-    <description>Recent content in Tags on ZHENG Zi&#39;ou</description>
+    <description>Recent content in Tags on EightLingPg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Mon, 11 Mar 2019 20:35:12 +0800</lastBuildDate><atom:link href="https://saveworks.github.io/eightlinepg-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2020 07:35:57 +0800</lastBuildDate><atom:link href="https://saveworks.github.io/eightlinepg-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git</title>
+      <link>https://saveworks.github.io/eightlinepg-blog/tags/git/</link>
+      <pubDate>Thu, 22 Oct 2020 07:35:57 +0800</pubDate>
+      
+      <guid>https://saveworks.github.io/eightlinepg-blog/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://saveworks.github.io/eightlinepg-blog/tags/github/</link>
+      <pubDate>Thu, 22 Oct 2020 07:35:57 +0800</pubDate>
+      
+      <guid>https://saveworks.github.io/eightlinepg-blog/tags/github/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>musical</title>
       <link>https://saveworks.github.io/eightlinepg-blog/tags/musical/</link>
@@ -499,15 +517,6 @@
       <pubDate>Sun, 28 Jan 2018 22:04:23 +0800</pubDate>
       
       <guid>https://saveworks.github.io/eightlinepg-blog/tags/sitemap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>git</title>
-      <link>https://saveworks.github.io/eightlinepg-blog/tags/git/</link>
-      <pubDate>Sun, 28 Jan 2018 13:36:28 +0800</pubDate>
-      
-      <guid>https://saveworks.github.io/eightlinepg-blog/tags/git/</guid>
       <description></description>
     </item>
     

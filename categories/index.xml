@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on ZHENG Zi&#39;ou</title>
+    <title>Categories on EightLingPg</title>
     <link>https://saveworks.github.io/eightlinepg-blog/categories/</link>
-    <description>Recent content in Categories on ZHENG Zi&#39;ou</description>
+    <description>Recent content in Categories on EightLingPg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Mon, 11 Mar 2019 20:35:12 +0800</lastBuildDate><atom:link href="https://saveworks.github.io/eightlinepg-blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2020 07:35:57 +0800</lastBuildDate><atom:link href="https://saveworks.github.io/eightlinepg-blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>github</title>
+      <link>https://saveworks.github.io/eightlinepg-blog/categories/github/</link>
+      <pubDate>Thu, 22 Oct 2020 07:35:57 +0800</pubDate>
+      
+      <guid>https://saveworks.github.io/eightlinepg-blog/categories/github/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>品鉴评论</title>
       <link>https://saveworks.github.io/eightlinepg-blog/categories/%E5%93%81%E9%89%B4%E8%AF%84%E8%AE%BA/</link>

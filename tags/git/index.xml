@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>git on ZHENG Zi&#39;ou</title>
+    <title>git on EightLingPg</title>
     <link>https://saveworks.github.io/eightlinepg-blog/tags/git/</link>
-    <description>Recent content in git on ZHENG Zi&#39;ou</description>
+    <description>Recent content in git on EightLingPg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sun, 28 Jan 2018 13:36:28 +0800</lastBuildDate><atom:link href="https://saveworks.github.io/eightlinepg-blog/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2020 07:35:57 +0800</lastBuildDate><atom:link href="https://saveworks.github.io/eightlinepg-blog/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github添加sshkeys</title>
+      <link>https://saveworks.github.io/eightlinepg-blog/blog/2020-10/github%E6%B7%BB%E5%8A%A0sshkeys/</link>
+      <pubDate>Thu, 22 Oct 2020 07:35:57 +0800</pubDate>
+      
+      <guid>https://saveworks.github.io/eightlinepg-blog/blog/2020-10/github%E6%B7%BB%E5%8A%A0sshkeys/</guid>
+      <description>初始篇</description>
+    </item>
+    
     <item>
       <title>Mac中Git忽略.DS_Store文件</title>
       <link>https://saveworks.github.io/eightlinepg-blog/sci-tech/2018-01/mac%E4%B8%ADgit%E5%BF%BD%E7%95%A5.ds_store%E6%96%87%E4%BB%B6/</link>
